@@ -56,5 +56,8 @@
       <Version>2.11.2</Version>
     </PackageReference>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="package.nuspec" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

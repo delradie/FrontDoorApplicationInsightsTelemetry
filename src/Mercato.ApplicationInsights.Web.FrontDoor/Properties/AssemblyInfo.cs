@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Delradie.ApplicationInsights.Web.FrontDoor")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("Mercato.ApplicationInsights.Web.FrontDoor")]
+[assembly: AssemblyDescription("Application Insights utility for Azure Front Door")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Delradie.ApplicationInsights.Web.FrontDoor")]
-[assembly: AssemblyCopyright("Copyright ©  2019")]
+[assembly: AssemblyCompany("Mercato Solutions Ltd")]
+[assembly: AssemblyProduct("Mercato.ApplicationInsights.Web.FrontDoor")]
+[assembly: AssemblyCopyright("Copyright ©  2019 Mercato Solutions Ltd")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
