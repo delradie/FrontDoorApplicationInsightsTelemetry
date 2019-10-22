@@ -12,3 +12,5 @@ To activate, add the following line to your ApplicationInsights.config under the
 ```xml
 <Add Type="Mercato.ApplicationInsights.Web.FrontDoor.SyntheticBlankUserAgentTelemetryInitializer, Mercato.ApplicationInsights.Web.FrontDoor" />
 ```
+
+Published as Nuget - [Mercato.ApplicationInsights.Web.FrontDoor](https://www.nuget.org/packages/Mercato.ApplicationInsights.Web.FrontDoor/)
