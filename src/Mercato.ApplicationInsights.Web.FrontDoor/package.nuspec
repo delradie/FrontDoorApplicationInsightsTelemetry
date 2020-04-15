@@ -22,8 +22,8 @@
     <copyright>$copyright$</copyright>
     <tags> </tags>
     <dependencies>
-      <dependency id="Microsoft.ApplicationInsights" version="2.11.0" />
-      <dependency id="Microsoft.ApplicationInsights.Web" version="2.11.2" />
+      <dependency id="Microsoft.ApplicationInsights" version="2.13.1" />
+      <dependency id="Microsoft.ApplicationInsights.Web" version="2.13.1" />
     </dependencies>
   </metadata>
 </package>
