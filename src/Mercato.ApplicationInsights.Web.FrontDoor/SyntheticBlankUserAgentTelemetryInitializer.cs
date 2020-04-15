@@ -16,9 +16,9 @@ namespace Mercato.ApplicationInsights.Web.FrontDoor
             {
                 HttpContext CurrentContext = HttpContext.Current;
 
-                if (CurrentContext != null)
+                if (CurrentContext?.Request != null)
                 {
-                    if (String.IsNullOrWhiteSpace(CurrentContext.Request.UserAgent))
+                    if (String.IsNullOrWhiteSpace(CurrentContext?.Request?.UserAgent))
                     {
                         telemetry.Context.Operation.SyntheticSource = SyntheticSourceName;
                         CurrentContext.Items.Add(SyntheticSourceNameKey, SyntheticSourceName);
