@@ -47,13 +47,14 @@
   <ItemGroup>
     <Compile Include="SyntheticBlankUserAgentTelemetryInitializer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="HttpHeaderTelemetryInitializer.cs" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.ApplicationInsights">
-      <Version>2.11.0</Version>
+      <Version>2.13.1</Version>
     </PackageReference>
     <PackageReference Include="Microsoft.ApplicationInsights.Web">
-      <Version>2.11.2</Version>
+      <Version>2.13.1</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
