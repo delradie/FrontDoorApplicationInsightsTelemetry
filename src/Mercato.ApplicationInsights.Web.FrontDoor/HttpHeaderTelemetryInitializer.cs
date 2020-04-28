@@ -47,7 +47,12 @@ namespace Mercato.ApplicationInsights.Web.FrontDoor
 
                     if (!String.IsNullOrWhiteSpace(HeaderValue))
                     {
-                        telemetry.Context.GlobalProperties.Add($"request-{RequestHeaderName}", HeaderValue);
+                        String PropertyKey = $"request-{RequestHeaderName}";
+                        
+                        if (!telemetry.Context.GlobalProperties.ContainsKey(PropertyKey))
+                        {
+                            telemetry.Context.GlobalProperties.Add($"request-{RequestHeaderName}", HeaderValue);
+                        }
                     }
                 }
             }
